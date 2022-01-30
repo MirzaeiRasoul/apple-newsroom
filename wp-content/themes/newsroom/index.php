@@ -41,14 +41,6 @@
             }
         }
     } ?>
-    <!-- <div class="row">
-        <div class="card d-flex flex-1">
-            <div class="card-content">col1</div>
-        </div>
-        <div class="card d-flex flex-1">
-            <div class="card-content">col2</div>
-        </div>
-    </div> -->
 </main> <!-- .main -->
 
 <?php get_footer(); ?>

@@ -8,8 +8,7 @@ function setup_theme()
 	 * WordPress will provide it for us.
 	 */
     add_theme_support('title-tag');
-    
-    
+
     /*
 	 * Featured images (also sometimes called Post Thumbnails) are images that represent an individual Post, Page,
      * or Custom Post Type. When you create your Theme, you can output the featured image in a number of different ways,
