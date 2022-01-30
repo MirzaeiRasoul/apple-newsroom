@@ -1,0 +1,252 @@
+/* FONT STYLES
+************************************************************/
+/* open-sans-300 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src:
+        url('../fonts/open-sans-v27-latin-300.woff2') format('woff2'),
+        url('../fonts/open-sans-v27-latin-300.woff') format('woff');
+}
+
+/* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        url('../fonts/open-sans-v27-latin-regular.woff2') format('woff2'),
+        url('../fonts/open-sans-v27-latin-regular.woff') format('woff');
+}
+
+/* open-sans-500 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    src:
+        url('../fonts/open-sans-v27-latin-500.woff2') format('woff2'),
+        url('../fonts/open-sans-v27-latin-500.woff') format('woff');
+}
+
+/* open-sans-700 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src:
+        url('../fonts/open-sans-v27-latin-700.woff2') format('woff2'),
+        url('../fonts/open-sans-v27-latin-700.woff') format('woff');
+}
+
+/* open-sans-600 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src:
+        url('../fonts/open-sans-v27-latin-600.woff2') format('woff2'),
+        url('../fonts/open-sans-v27-latin-600.woff') format('woff');
+}
+
+/* open-sans-800 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src:
+        url('../fonts/open-sans-v27-latin-800.woff2') format('woff2'),
+        url('../fonts/open-sans-v27-latin-800.woff') format('woff');
+}
+
+/* BASIC STYLES
+************************************************************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    letter-spacing: -0.3px;
+    color: #1d1d1f;
+    background-color: #f5f5f7;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: -1.1px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #1d1d1f;
+    text-decoration: none;
+}
+
+/* a:hover {
+    color: #1d1d1f;
+} */
+
+/* GLOBAL STYLES
+************************************************************/
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-content {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #eee;
+}
+
+.card-content .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content .card-info {
+    font-weight: 700;
+    color: #1d1d1f;
+}
+
+.hero .card-image {
+    height: 300px;
+    overflow: hidden;
+}
+
+.hero .card-image img {
+    border-radius: 10px 0 0 10px;
+}
+
+.hero .card-info {
+    font-size: 28px;
+    padding: 25px;
+}
+
+.two-col {
+    max-width: calc(50% - 20px);
+}
+
+.two-col .card-image {
+    height: 250px;
+    overflow: hidden;
+}
+
+.two-col .card-image img {
+    border-radius: 10px 10px 0 0;
+}
+
+.two-col .card-info {
+    font-size: 22px;
+    padding: 20px;
+}
+
+/* CONTENT
+************************************************************/
+.content {
+    /* padding: 0 250px; */
+}
+
+/* HEADER
+************************************************************/
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 250px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.header .site-title {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+/* NAVBAR
+************************************************************/
+.navbar .navbar-list {
+    display: flex;
+}
+
+.navbar .navbar-list .navbar-item {
+    list-style: none;
+    padding-left: 20px;
+}
+
+/* MAIN
+************************************************************/
+.main {
+    /* background-color: #f5f5f7; */
+    padding: 25px 250px;
+}
+
+.post {
+    width: 80%;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.post-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.post-content a {
+    color: #06c;
+}
+
+.post-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px !important;
+    margin: 15px 0;
+}
+
+/* Footer
+************************************************************/
+.footer {
+    font-size: 12px;
+    background-color: rgba(240, 240, 244, 0.9);
+    padding: 25px 250px;
+}
+
+.footer-list-item {
+    list-style: none;
+    line-height: 1.9;
+}
+
+.footer-list-item a {
+    color: #424245;
+}
+
+.footer-list-item a:hover {
+    text-decoration: underline;
+}
