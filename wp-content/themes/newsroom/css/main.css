@@ -10,7 +10,7 @@
         url('../fonts/open-sans-v27-latin-300.woff') format('woff');
 }
 
-/* open-sans-regular - latin */
+/* open-sans-400 - latin */
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
@@ -30,16 +30,6 @@
         url('../fonts/open-sans-v27-latin-500.woff') format('woff');
 }
 
-/* open-sans-700 - latin */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src:
-        url('../fonts/open-sans-v27-latin-700.woff2') format('woff2'),
-        url('../fonts/open-sans-v27-latin-700.woff') format('woff');
-}
-
 /* open-sans-600 - latin */
 @font-face {
     font-family: 'Open Sans';
@@ -48,6 +38,16 @@
     src:
         url('../fonts/open-sans-v27-latin-600.woff2') format('woff2'),
         url('../fonts/open-sans-v27-latin-600.woff') format('woff');
+}
+
+/* open-sans-700 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src:
+        url('../fonts/open-sans-v27-latin-700.woff2') format('woff2'),
+        url('../fonts/open-sans-v27-latin-700.woff') format('woff');
 }
 
 /* open-sans-800 - latin */
